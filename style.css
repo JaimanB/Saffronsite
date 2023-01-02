@@ -1,0 +1,79 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    background: black;
+    opacity: .6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    color: blanchedalmond;   
+}
+
+/* Navbar Part */
+
+.logo{
+    color: blanchedalmond;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+ li, a, button{
+    text-decoration: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links a {
+    transition: all 0.3s ease 0s;
+    color: blanchedalmond;
+}
+
+button {
+    color: blanchedalmond;
+    Border: 2px solid blanchedalmond;;
+    padding: 12px;
+    background: black;
+    opacity: .6;
+    font-family: inherit;
+    font-size: inherit;
+    border-radius: 3px;;
+}
+
+button:hover {
+    background-color: blanchedalmond;
+    color: black;
+    cursor: pointer;
+}
+
+a{
+    position: relative;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    color: blanchedalmond;
+}
+
+a:after{
+    content:"";
+    position: absolute;
+    background-color: blanchedalmond;;
+    height: 3px;
+    width: 0%;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+
+a:hover:after{
+    width: 100%;
+
+}
+
+
